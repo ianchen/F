@@ -90,7 +90,7 @@ default:
                   <li>出團人數: <input id="group-number"></li>
                   <li>預計金額: <input id="group-price"></li>
                   <li>推薦文章連結: <input id="group-url"></li>
-                  <li>推薦ptt美食版文章: <input id="group-ptt"></li>
+                  <li>推薦ptt美食版文章: <br><textarea cols="40" rows="15" id="group-ptt"></textarea></li>
                   <li>ptt作者: <input id="group-author"></li>
                 </ul>
                 <button class="done-btn" order="2">完成</button>
