@@ -1,0 +1,358 @@
+﻿body {
+	font-family:  "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;	
+}
+.center {
+	width: 1004 px;
+	
+}
+.food_left_bg {
+	background-color: #FFF;
+	background-image: url(../images/Food/food_leftbg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.food_left_bg_middle {
+	background-color: #FFF;
+	background-image: url(../images/Food/food_leftbg_middle.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.food_left_bg_bottom {
+	background-color: #FFF;
+	background-image: url(../images/Food/food_leftbg_bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.main_bg_margin{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+.food_main_bg {
+	background-color: #FFF;
+	background-image: url(../images/Food/food_main_bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.food_main_bg_middle {
+	background-color: #FFF;
+	background-image: url(../images/Food/food_main_bg_middle.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.food_main_bg_bottom {
+	background-color: #FFF;
+	background-image: url(../images/Food/food_main_bg_bottom.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/* [disabled]padding-left: 25px; */
+	/* [disabled]padding-top: 70px; */
+}
+.food_main_bg_bottomline{
+	background-color: #FFF;
+	background-image: url(../images/Food/food_main_bg_bottomline.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.txt_no_white{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;
+	padding-left: 20px;
+}
+.main_photo_title{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #4f3c2c;
+	background-image: url(../images/Food/food_main_title_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.txt_brown_bold{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #4f3c2c;
+}
+.txt_brown_normal{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	letter-spacing: 1px;
+}
+.txt_brown_detail{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	line-height: 20px;
+	letter-spacing:1px;
+	padding: 10px;
+}
+.main_reco_bg{
+	background-color: #FFF;
+	background-image: url(../images/Food/main_reco_bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.recopix {
+	border: 1px solid #a1a610;
+	height: 76px;
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 10px;
+	float:left;
+	margin-left: 8px;
+	padding: 2px;
+}
+.txt_brown_reco_detail{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	line-height: 14px;
+
+}
+.txt_review_name{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #4f3c2c;
+	padding-left: 12px;
+	background-image: url(../images/Food/dot_02.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.txt_review_detail{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+}
+.review_pix {
+	border: 1px solid #a1a610;
+	height: 120px;
+	width: 120px;
+	margin-top: 5px;
+	margin-right: 10px;
+	float:right;
+	margin-left: 8px;
+	padding: 4px;
+}
+.left_posit_title{
+	font-family: "微軟正黑體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #C00;
+	line-height: 24px;
+	width: 200px;
+}
+.left_posit_review{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #6D533D;
+	background-image: url(../images/Food/red_circle.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 10px;
+}
+.left_posit_score{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: bold;
+	color: #f24343;
+	padding-left: 150px;
+	background-image: url(../images/Food/left_posit_score_bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-bottom: 5px;
+	
+}
+.left_posit_red{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F24343;
+}
+.left_top_bg{
+	url(../images/Food/left_posit_score_bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-image: url(../images/Food/left_top_bg.png);
+	
+}
+.left_top_name{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	padding-left: 12px;
+	background-image: url(../images/Food/dot_01.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+.left_line_bg{
+	url(../images/Food/left_posit_score_bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-image: url(../images/Food/left_line.png);	
+}
+.join_button{
+	background-image: url(../images/Food/join_button.png);
+	height: 32px;
+	width: 102px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-left: 60px;
+	}
+.left_rest_bg{
+	
+	background-repeat: no-repeat;
+	background-position: left;
+	background-image: url(../images/Food/restaurant.png);
+	}	
+.left_rest_txt{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	padding-right: 20px;
+	
+}	
+.left_rest_pix{
+	border: 1px solid #a1a610;
+	height: 100px;
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 10px;
+	float:left;
+	margin-left: 8px;
+	padding: 2px;
+}
+.left_rest_txt_red{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #F24343;
+	padding-left: 6px;
+	
+}
+.left_map_bg{
+	background-repeat: no-repeat;
+	background-position: left;
+	background-image: url(../images/Food/map_bg.jpg);
+	
+}
+
+.middle_bg_left{
+	background-repeat: no-repeat;
+	background-position: left;
+	background-image: url(../images/Food/food_middle_bg_left.jpg);
+}
+.middle_bg_center{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/Food/food_middle_bg_center.png);
+}
+.middle_bg_right{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/Food/food_middle_bg_right.png);
+}
+.middle_name{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #4f3c2c;
+	padding-left: 8px;
+	background-image: url(../images/Food/dot_02.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	}
+.food_center_bottom_bg{
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url(../images/Food/food_center_bottom.png);
+}
+.login_photo3{
+	padding: 0;
+	background-image: url(../images/Main_photo_03.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.photo3_img_pos{
+	position:relative;
+	top:45px;
+	left:15px;
+	height: 165px;
+	width: 190px;
+	
+}
+.photo3_word_pos{
+	position:relative;
+	top:45px;
+	left:10px;
+	height: 36px;
+	width: 200px;
+	
+}
+
+.left {
+	padding: 0;
+	background-color: #FFF;
+	background-image: url(../images/mainbg_01.png);
+	height: 650px;
+	background-repeat: repeat;
+	background-position: left top;
+}
+.right{
+	padding: 0;
+	color: #311717;
+	background-color: #FFF;
+	background-image: url(../images/mainbg_01.png);
+	height: 650px;
+	background-repeat: repeat;
+	background-position: right top;
+}
+.bottom_copyright{
+	background-image:url(../images/copyright_bottom.png);
+	background-repeat: no-repeat;
+}
+.bottom_left{
+	background-image:url(../images/mainbg_01.png);
+	background-repeat: no-repeat;
+	height: 150px;
+}
+.bottom_right{
+	background-image:url(../images/mainbg_01.png);
+	background-repeat: no-repeat;
+	height: 150px;
+}

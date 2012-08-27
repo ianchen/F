@@ -1,0 +1,119 @@
+﻿body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;
+	
+}
+a{
+outline: none;
+}
+a:link{
+	COLOR: #665644;
+	text-decoration: underline;
+}
+a:hover{
+	COLOR: #666FA1;
+	text-decoration: underline;
+}
+a:visited {
+	COLOR: #D3D3D3;
+	text-decoration: none;
+}
+table {
+	/* [disabled]table-layout: fixed; */
+	word-break: break-all;
+}
+img {
+	border:0px;
+}
+
+
+.main_bg_01 {
+	background-image: url(../images/Signup/SignupB_Mainbg_01.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 18px;
+	padding-left: 15px;
+}
+.main_bg_02 {
+	background-image: url(../images/Signup/SignupB_Mainbg_02.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 18px;
+	padding-left: 15px;
+}
+.main_bg_03 {
+	background-image: url(../images/Signup/Main_bg_03.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 18px;
+	padding-left: 15px;
+}
+.question_title {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 0px;
+	line-height: 18px;
+	text-align: left;
+	vertical-align: middle;
+}
+.question_title_01 {
+	font-family:  "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 0px;
+	line-height: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+.real_title_01 {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 0px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+.real_txtbox_01 {
+	font-family: "微軟正黑體", "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #4a4242;
+	text-decoration: none;
+	letter-spacing: 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.content_title {
+	font-family: "新細明體","Verdana","tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #665644;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+}
+
+	
+	
+	
+	

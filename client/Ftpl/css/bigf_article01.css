@@ -1,0 +1,202 @@
+﻿body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;
+}
+.center {
+	background-color: #FFF;
+	width: 1004 px;
+	
+}
+img {
+	border:0px;
+}
+
+.mainphoto_01 {
+	background-color: #FFF;
+	background-image: url(../images/bigf/bigf_topphoto_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.left {
+	padding: 0;
+	background-color: #FFF;
+	background-image: url(../images/common/background/mainbg_04.png);
+	height: 650px;
+	background-repeat: repeat;
+	background-position: left top;
+}
+.right{
+	padding: 0;
+	color: #311717;
+	background-color: #FFF;
+	background-image: url(../images/common/background/mainbg_04.png);
+	height: 650px;
+	background-repeat: repeat;
+	background-position: right top;
+}
+.hot_title {
+	font-family: "微軟正黑體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #de8a06;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: middle;
+}
+.hot_content_txt {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #757272;
+	text-decoration: none;
+	letter-spacing: 1px;
+	vertical-align: top;
+	line-height: 20px;
+}
+.bigF_dotline_01{
+	background-image: url(../images/bigf/bigF_dotline_01.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.article_title_txt {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #454545;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+	line-height: normal;
+}
+.article_detail_txt {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #757272;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+	line-height: 16px;
+}
+.article_title_txt a:link{
+	COLOR: #454545; 
+    text-decoration: none
+}
+.article_title_txt a:hover{
+	COLOR: #000000; 
+	text-decoration: none
+}
+.article_title_txt a:visited {
+	COLOR: #D3D3D3;
+	text-decoration: none
+}
+.article_detail_txt a:link{
+	COLOR: #757272; 
+    text-decoration: none
+}
+.article_detail_txt a:hover{
+	COLOR: #000000; 
+	text-decoration: none
+}
+.article_detail_txt a:visited {
+	COLOR: #D3D3D3;
+	text-decoration: none
+}
+.latest_txt{
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	padding-left: 10px;
+	background-image: url(../images/Food/dot_01.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	vertical-align: top;
+	}
+.latest_txt a:link{
+	COLOR: #333;
+	text-decoration: none
+}
+.latest_txt a:hover{
+	COLOR: #000000; 
+	text-decoration: none
+}
+.latest_txt a:visited {
+	COLOR: #D3D3D3;
+	text-decoration: none
+}
+.contact_txt{
+	font-family: "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #222;
+	padding-left: 12px;
+	background-image: url(../images/Food/dot_01.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	vertical-align: top;
+	}
+
+
+
+
+
+
+
+
+
+.pagenavi{
+	clear: both;
+	text-align: center;
+	margin: 10px;
+	font-family: "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+}
+.pagenavi a, .pagenavi span {
+	position: relative;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 2px;
+	display: inline-block;
+	background: #A9A387;
+	border: 2px solid #A9A387;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	color: white;
+
+}
+
+.bottom_copyright{
+	background-image:url(../images/common/background/copyright_bottom_04.png);
+	background-repeat: no-repeat;
+}
+.bottom_left{
+	background-image:url(../images/common/background/mainbg_04.png);
+	background-repeat: no-repeat;
+	height: 150px;
+}
+.bottom_right{
+	background-image:url(../images/common/background/mainbg_04.png);
+	background-repeat: no-repeat;
+	height: 150px;
+}
+	
+	
+	
+	
+
+
+

@@ -1,0 +1,55 @@
+@import "compass/reset";
+
+body{
+  text-align: center\9;
+}
+.content{
+  text-align: left\9;
+  margin: 0 auto;
+  width: 1004px;
+  height: 650px;
+  background-image: url("../images/login/LoginBackground_center.png");
+  background-repeat: no-repeat;
+  .photo-list{
+    position: relative;
+    top: 170px;
+    margin-top: 170px\9;
+    li{
+      float: left;
+      width: 230px;
+    }
+    .photo-1{
+      width: 251px;
+    }
+    .photo-3{
+      height: 288px;
+      background-image: url("../images/login/Main_photo_03.png");
+      background-repeat: no-repeat;
+      .photo{
+        margin-top: 50px;
+        margin-left: 15px;
+      }
+      .word{
+        margin-top: -15px;
+        margin-left: 15px;
+      }
+    }
+  }
+  .login-bar{
+    position: relative;
+    top: 210px;
+    left: 500px;
+    margin-top: -130px\9;
+    margin-left: 500px\9;
+    li{
+      float: left;
+    }
+    input{
+      width: 100px;
+    }
+    .login-btn{
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }
+}

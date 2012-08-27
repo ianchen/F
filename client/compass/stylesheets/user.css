@@ -1,0 +1,158 @@
+/* line 17, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/user.scss */
+body {
+  text-align: center\9;
+  background-image: url("../images/common/mainbg_03.png");
+}
+
+/* line 7, ../sass/user.scss */
+.content {
+  background-color: white;
+  text-align: left\9;
+  margin: 0 auto;
+  width: 1004px;
+  height: 1000px;
+  overflow: hidden;
+}
+/* line 14, ../sass/user.scss */
+.content .logo {
+  float: left;
+}
+/* line 17, ../sass/user.scss */
+.content .title-bar {
+  background-image: url("..//images/user/note_personal_top_bg.png");
+  width: 1004px;
+  height: 112px;
+  margin-top: 5px;
+}
+/* line 23, ../sass/user.scss */
+.content .account {
+  float: left;
+  width: 502px;
+  height: 82px;
+  background-image: url("../images/user/note_personal_name_bg.png");
+  background-repeat: no-repeat;
+}
+/* line 30, ../sass/user.scss */
+.content .three-word {
+  float: left;
+  width: 502px;
+  height: 296px;
+  margin-top: -114px;
+  background-image: url("../images/user/note_personal_topbg_right.jpg");
+  background-repeat: no-repeat;
+}
+/* line 38, ../sass/user.scss */
+.content .status {
+  float: left;
+  width: 502px;
+  height: 148px;
+  margin-top: -100px;
+  background-image: url("../images/user/note_personal_status_bg.png");
+  background-repeat: no-repeat;
+}
+/* line 45, ../sass/user.scss */
+.content .status .status-images {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+/* line 51, ../sass/user.scss */
+.content .introduce {
+  float: left;
+  width: 502px;
+  height: 217px;
+  margin-top: 0px;
+  background-image: url("../images/user/note_personal_selfintro_bg.jpg");
+  background-repeat: no-repeat;
+}
+/* line 59, ../sass/user.scss */
+.content .hobby {
+  float: left;
+  width: 502px;
+  height: 160px;
+  margin-top: -192px;
+  background-image: url("../images/user/note_personal_interest_bg.png");
+  background-repeat: no-repeat;
+}
+/* line 67, ../sass/user.scss */
+.content .photo {
+  float: left;
+  width: 502px;
+  height: 286px;
+  margin-top: -32px;
+  margin-left: -502px \9;
+  background-image: url("../images/user/note_personal_bottombg_left.jpg");
+  background-repeat: no-repeat;
+}
+/* line 76, ../sass/user.scss */
+.content .talk {
+  float: left;
+  width: 502px;
+  height: 277px;
+  background-image: url("../images/user/note_personal_favtopic_bg.png");
+  background-repeat: no-repeat;
+}

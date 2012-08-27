@@ -1,0 +1,203 @@
+﻿body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;
+}
+a:link{
+	COLOR: #F24545;
+	text-decoration: underline;
+}
+a:hover{
+	COLOR: #666FA1;
+	text-decoration: underline;
+}
+a:visited {
+	COLOR: #D3D3D3;
+	text-decoration: none;
+}
+table {
+	table-layout: fixed;
+	word-break: break-all;
+}
+img {
+	border:0px;
+}
+
+.top_bg {
+	background-color: #FFF;
+	background-image: url(../images/template/template_top_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.middle_bg {
+	background-color: #FFF;
+	background-image: url(../images/template/template_middle_bg.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.bottom_bg {
+	background-color: #FFF;
+	background-image: url(../images/template/template_bottom_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.title {
+	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #665644;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: middle;
+}
+.content_txt_01 {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #757272;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+	line-height: 20px;
+}
+.dotline_01{
+	background-image: url(../images/bigf/bigF_dotline_01.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.img_style {
+	border: 1px solid #e5e1dd;
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 0px;
+	padding: 3px;
+}
+.template_titlebg_red {
+	background-color: #FFF;
+	background-image: url(../images/template/template_titlebg_red.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "微軟正黑體","新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 20px;
+}
+.template_titlebg_green{
+	background-color: #FFF;
+	background-image: url(../images/template/template_titlebg_green.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "微軟正黑體","新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 20px;
+}
+.template_titlebg_blue{
+	background-color: #FFF;
+	background-image: url(../images/template/template_titlebg_blue.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "微軟正黑體","新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 20px;
+}
+.template_titlebg_brown{
+	background-color: #FFF;
+	background-image: url(../images/template/template_titlebg_brown.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "微軟正黑體","新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 20px;
+}
+.content_title {
+	font-family: "新細明體","Verdana","tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #665644;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+.pagenavi{
+	clear: both;
+	text-align: center;
+	margin: 10px;
+	font-family: "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+}
+.pagenavi a, .pagenavi span {
+	position: relative;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 2px;
+	display: inline-block;
+	background: #A9A387;
+	border: 2px solid #A9A387;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	color: white;
+
+}
+
+.pagenavi span.current {
+	background: #de8a06;
+	border: 2px solid #de8a06;
+	color: white;
+	font-size: 14px;
+}
+.pagenavi a:hover{
+
+	background: #de8a06;
+	border: 2px solid #de8a06;
+
+}
+
+	
+	
+	
+	
