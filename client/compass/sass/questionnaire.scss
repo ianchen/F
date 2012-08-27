@@ -1,0 +1,200 @@
+﻿body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;
+	
+}
+a:link{
+	COLOR: #665644;
+	text-decoration: underline;
+}
+a:hover{
+	COLOR: #666FA1;
+	text-decoration: underline;
+}
+a:visited {
+	COLOR: #D3D3D3;
+	text-decoration: none;
+}
+table {
+	/* [disabled]table-layout: fixed; */
+	word-break: break-all;
+}
+img {
+	border:0px;
+}
+
+.top_bg {
+	background-color: #EFEBE5;
+	background-image: url(../images/questionaire/quest_top_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.main_bg {
+	background-color: #EFEBE5;
+	background-image: url(../images/questionaire/quest_main_bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-top: 18px;
+	padding-left: 15px;
+}
+.question_finished_bg {
+	background-color: #EFEBE5;
+	background-image: url(../images/questionaire/finished_pix.png);
+	background-repeat: no-repeat;
+	background-position: 5px bottom;
+	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #999;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	padding-left: 35px;
+	padding-bottom: 5px;
+}
+.btn_edit{
+	CURSOR: pointer;
+	height: 17px;
+	width: 26px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/questionaire/edit_pix01.png);
+}
+.btn_edit_fix{
+	padding-bottom: 5px;
+}
+.dotline_03{
+	background-image: url(../images/common/dotline_03.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.dotline_04{
+	background-image: url(../images/common/dotline_04.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.question_current_bg {
+	background-color: #ffffff;
+	background-image: url(../images/questionaire/current_pix.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #534031;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: middle;
+	padding-left: 40px;
+	padding-bottom: 5px;
+}
+.percentage_txt{
+	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #6ABA3A;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+
+.title {
+	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #665644;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: middle;
+}
+.content_txt_01 {
+	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #757272;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+	line-height: 20px;
+}
+
+.img_style {
+	border: 1px solid #e5e1dd;
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin: 0px;
+	padding: 3px;
+}
+
+.content_title {
+	font-family: "新細明體","Verdana","tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: none;
+	color: #665644;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+}
+.guestion_title {
+	font-family: "新細明體", "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #3A3127;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	line-height: 18px;
+	padding-left: 5px;
+}
+.selection_area {
+	font-family: "新細明體", "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	color: #665644;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: top;
+	line-height: 18px;
+}
+.selection_area ul li{
+	float: left;
+	margin: 5px;
+	list-style-position: outside;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.q2{
+  display: none;
+}
+
+	
+	
+	
+	

@@ -1,198 +1,234 @@
-﻿body {
-	background-color: #ffffff;
-	margin: 0px;
-	padding-left: 0px;
-	
+@charset "UTF-8";
+/* line 1, ../sass/questionnaire.scss */
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  padding-left: 0px;
 }
-a:link{
-	COLOR: #665644;
-	text-decoration: underline;
+
+/* line 7, ../sass/questionnaire.scss */
+a:link {
+  COLOR: #665644;
+  text-decoration: underline;
 }
-a:hover{
-	COLOR: #666FA1;
-	text-decoration: underline;
+
+/* line 11, ../sass/questionnaire.scss */
+a:hover {
+  COLOR: #666FA1;
+  text-decoration: underline;
 }
+
+/* line 15, ../sass/questionnaire.scss */
 a:visited {
-	COLOR: #D3D3D3;
-	text-decoration: none;
+  COLOR: #D3D3D3;
+  text-decoration: none;
 }
+
+/* line 19, ../sass/questionnaire.scss */
 table {
-	/* [disabled]table-layout: fixed; */
-	word-break: break-all;
+  /* [disabled]table-layout: fixed; */
+  word-break: break-all;
 }
+
+/* line 23, ../sass/questionnaire.scss */
 img {
-	border:0px;
+  border: 0px;
 }
 
+/* line 27, ../sass/questionnaire.scss */
 .top_bg {
-	background-color: #EFEBE5;
-	background-image: url(../images/questionaire/quest_top_bg.png);
-	background-repeat: no-repeat;
-	background-position: center top;
+  background-color: #EFEBE5;
+  background-image: url(../images/questionaire/quest_top_bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
+
+/* line 33, ../sass/questionnaire.scss */
 .main_bg {
-	background-color: #EFEBE5;
-	background-image: url(../images/questionaire/quest_main_bg.png);
-	background-repeat: no-repeat;
-	background-position: left top;
-	padding-top: 18px;
-	padding-left: 15px;
+  background-color: #EFEBE5;
+  background-image: url(../images/questionaire/quest_main_bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 18px;
+  padding-left: 15px;
 }
+
+/* line 41, ../sass/questionnaire.scss */
 .question_finished_bg {
-	background-color: #EFEBE5;
-	background-image: url(../images/questionaire/finished_pix.png);
-	background-repeat: no-repeat;
-	background-position: 5px bottom;
-	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 15px;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #999;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: bottom;
-	padding-left: 35px;
-	padding-bottom: 5px;
+  background-color: #EFEBE5;
+  background-image: url(../images/questionaire/finished_pix.png);
+  background-repeat: no-repeat;
+  background-position: 5px bottom;
+  font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  color: #999;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  padding-left: 35px;
+  padding-bottom: 5px;
 }
-.btn_edit{
-	CURSOR: pointer;
-	height: 17px;
-	width: 26px;
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	background-image: url(../images/questionaire/edit_pix01.png);
+
+/* line 58, ../sass/questionnaire.scss */
+.btn_edit {
+  CURSOR: pointer;
+  height: 17px;
+  width: 26px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  background-image: url(../images/questionaire/edit_pix01.png);
 }
-.btn_edit_fix{
-	padding-bottom: 5px;
+
+/* line 72, ../sass/questionnaire.scss */
+.btn_edit_fix {
+  padding-bottom: 5px;
 }
-.dotline_03{
-	background-image: url(../images/common/dotline_03.png);
-	background-repeat: no-repeat;
-	background-position: center top;
+
+/* line 75, ../sass/questionnaire.scss */
+.dotline_03 {
+  background-image: url(../images/common/dotline_03.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
-.dotline_04{
-	background-image: url(../images/common/dotline_04.png);
-	background-repeat: no-repeat;
-	background-position: center top;
+
+/* line 80, ../sass/questionnaire.scss */
+.dotline_04 {
+  background-image: url(../images/common/dotline_04.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
+
+/* line 85, ../sass/questionnaire.scss */
 .question_current_bg {
-	background-color: #ffffff;
-	background-image: url(../images/questionaire/current_pix.png);
-	background-repeat: no-repeat;
-	background-position: 5px center;
-	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 15px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: none;
-	color: #534031;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: middle;
-	padding-left: 40px;
-	padding-bottom: 5px;
-}
-.percentage_txt{
-	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 15px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: none;
-	color: #6ABA3A;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: bottom;
-	text-align: center;
+  background-color: #ffffff;
+  background-image: url(../images/questionaire/current_pix.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: none;
+  color: #534031;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  padding-left: 40px;
+  padding-bottom: 5px;
 }
 
+/* line 102, ../sass/questionnaire.scss */
+.percentage_txt {
+  font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: none;
+  color: #6ABA3A;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  text-align: center;
+}
 
+/* line 116, ../sass/questionnaire.scss */
 .title {
-	font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 18px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: none;
-	color: #665644;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: middle;
+  font-family: "新細明體","tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: none;
+  color: #665644;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: middle;
 }
+
+/* line 127, ../sass/questionnaire.scss */
 .content_txt_01 {
-	font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #757272;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: top;
-	line-height: 20px;
+  font-family: "新細明體", "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  color: #757272;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: top;
+  line-height: 20px;
 }
 
+/* line 140, ../sass/questionnaire.scss */
 .img_style {
-	border: 1px solid #e5e1dd;
-	float: left;
-	height: 100px;
-	width: 100px;
-	margin: 0px;
-	padding: 3px;
+  border: 1px solid #e5e1dd;
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  padding: 3px;
 }
 
+/* line 149, ../sass/questionnaire.scss */
 .content_title {
-	font-family: "新細明體","Verdana","tahoma", "Arial", "Helvetica", "sans-serif";
-	font-size: 15px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: none;
-	color: #665644;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: top;
+  font-family: "新細明體","Verdana","tahoma", "Arial", "Helvetica", "sans-serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: none;
+  color: #665644;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: top;
 }
+
+/* line 160, ../sass/questionnaire.scss */
 .guestion_title {
-	font-family: "新細明體", "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #3A3127;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: bottom;
-	line-height: 18px;
-	padding-left: 5px;
+  font-family: "新細明體", "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  color: #3A3127;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: bottom;
+  line-height: 18px;
+  padding-left: 5px;
 }
+
+/* line 173, ../sass/questionnaire.scss */
 .selection_area {
-	font-family: "新細明體", "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
-	font-size: 13px;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-	color: #665644;
-	text-decoration: none;
-	letter-spacing: 0px;
-	vertical-align: top;
-	line-height: 18px;
-}
-.selection_area ul li{
-	float: left;
-	margin: 5px;
-	list-style-position: outside;
-	list-style-image: none;
-	list-style-type: none;
+  font-family: "新細明體", "Verdana", "tahoma", "Arial", "Helvetica", "sans-serif";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  color: #665644;
+  text-decoration: none;
+  letter-spacing: 0px;
+  vertical-align: top;
+  line-height: 18px;
 }
 
+/* line 185, ../sass/questionnaire.scss */
+.selection_area ul li {
+  float: left;
+  margin: 5px;
+  list-style-position: outside;
+  list-style-image: none;
+  list-style-type: none;
+}
 
-
-	
-	
-	
-	
+/* line 193, ../sass/questionnaire.scss */
+.q2 {
+  display: none;
+}

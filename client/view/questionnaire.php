@@ -5,10 +5,7 @@
 #    exit();
 #  }
 #
-$connect = mysql_connect("localhost", "root", "1234555");
-$db = mysql_query("SET NAMES 'utf8'");
-mysql_select_db("db_f");
-
+require("config.php");
 $query = "SELECT * FROM `restaurant`";
 $result = mysql_query($query);
 $num = mysql_affected_rows();
@@ -40,6 +37,7 @@ default:
 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.js"></script>
+<script type="text/javascript" src="../javascripts/questionnaire.js"></script>
 </head>
 
 <body>
@@ -52,24 +50,24 @@ default:
       <tr>
         <td width="280" height="500" align="center" valign="top"><table width="280" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="240" height="70" class="question_finished_bg">下期餐廳資訊</td>
-            <td width="40" align="left" valign="bottom" class="btn_edit_fix"><input name="btn_login" type="submit" class="btn_edit" id="btn_edit" value=" "  valign="top" /></td>
+            <td width="240" height="70" class="question_current_bg question_1">下期餐廳資訊</td>
+            <td width="40" align="left" valign="bottom" class="btn_edit_fix"><input name="btn_login" type="submit" class="btn_edit" id="btn_edit" value=" "  valign="top" order="1"/></td>
           </tr>
           <tr>
             <td height="10" colspan="2" class="dotline_03">&nbsp;</td>
             </tr>
 <tr>
-            <td height="70" class="question_finished_bg">下期出團資訊</td>
-            <td width="40" align="left" valign="bottom" class="btn_edit_fix"><input name="btn_login" type="submit" class="btn_edit" id="btn_edit" value=" "  valign="top" /></td>
+            <td height="70" class="question_top_bg question_2">下期出團資訊</td>
+            <td width="40" align="left" valign="bottom" class="btn_edit_fix"><input name="btn_login" type="submit" class="btn_edit" id="btn_edit" value=" "  valign="top" order="2"/></td>
           </tr>
           <tr>
             <td height="10" colspan="2" class="dotline_03">&nbsp;</td>
             </tr>
           <tr>
-            <td height="50" colspan="2" align="center" valign="bottom" class="percentage_txt">完成進度: 50%</td>
+            <td height="50" colspan="2" align="center" valign="bottom" class="percentage_txt">完成進度: 0%</td>
             </tr>
           <tr>
-            <td height="30" colspan="2" align="center" valign="bottom"><img src="../compass/images/questionaire/percentage_02.png" width="139" height="26" /></td>
+            <td height="30" colspan="2" align="center" valign="bottom"><img class="percentage_img" src="../compass/images/questionaire/percentage_00.png" width="139" height="26" /></td>
             </tr>
           <tr>
             <td colspan="2">&nbsp;</td>
@@ -78,14 +76,15 @@ default:
         <td width="520" height="500" align="left" valign="top" class="main_bg"><table width="460" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td height="450" align="left" valign="top">
-              <div width="100%" height="440" marginwidth="0" #marginheight="0" align="left">
+              <div class="q1" width="100%" height="440" marginwidth="0" #marginheight="0" align="left">
                 <ul>
                   <li>店名: <input id="restaurant-name"></li>
                   <li>地址: <input id="restaurant-address-r"></li>
                   <li>電話: <input id="restaurant-phone"></li>
                 </ul>
+                <button class="done-btn" order="1">完成</button>
               </div>
-              <div width="100%" height="440" marginwidth="0" #marginheight="0" align="left">
+              <div class="q2" width="100%" height="440" marginwidth="0" #marginheight="0" align="left">
                 <ul>
                   <li>出團日期: <input id="group-date"></li>
                   <li>出團人數: <input id="group-number"></li>
@@ -94,6 +93,7 @@ default:
                   <li>推薦ptt美食版文章: <input id="group-ptt"></li>
                   <li>ptt作者: <input id="group-author"></li>
                 </ul>
+                <button class="done-btn" order="2">完成</button>
               </div>
             </td>
           </tr>
@@ -104,23 +104,6 @@ default:
 </table>
 </body>
 <script language="javascript">
-$("#restaurant-name").autocomplete({
-  source: <?php echo json_encode($restaurantNameList);?>
-});
-$("#group-date").datepicker({
-  dateFormat: "yy-mm-dd"
-    , beforeShowDay: function(date){
-      var m = date.getMonth(), d = date.getDate(), y = date.getFullYear();
-      if(m == 8 || d == 8){
-        return [true];
-      }
-      return [false];
-  }
-});
-
-
+  questionnaire(<?php echo json_encode($restaurantNameList);?>);
 </script>
-
-
-
 </html>
