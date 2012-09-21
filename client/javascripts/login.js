@@ -2,7 +2,7 @@ $(".login-btn").click(function(){
   var account = $(".account > input").val();
   var password = $(".password > input").val();
   $.ajax({
-    url: "../../epi/login.php",
+    url: "../../server/login.php",
     type: "post",
     dataType: "json",
     data: {

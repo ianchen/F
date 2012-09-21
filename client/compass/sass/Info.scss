@@ -99,3 +99,14 @@ body{
     }
   }
 }
+#frame-window{
+  display: none;
+}
+.frame-img{
+  cursor: pointer;
+}
+#close-frame{
+  position: relative;
+  margin-left: 840px;
+}
+

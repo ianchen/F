@@ -34,6 +34,17 @@ body{
     margin-top: -114px;
     background-image: url("../images/user/note_personal_topbg_right.jpg");
     background-repeat: no-repeat;
+    .more{
+      position: relative;
+      left: 350px;
+      top: 250px;
+    }
+    .three-word-content{
+      position: relative;
+      left: 270px;
+      top: 190px;
+      font-weight: bolder;
+    }
   }
   .status{
     float: left;
@@ -80,5 +91,14 @@ body{
     background-image: url("../images/user/note_personal_favtopic_bg.png");
     background-repeat: no-repeat;
   }
-
+  #frame-window{
+    display: none;
+  }
+  .frame-img{
+    cursor: pointer;
+  }
+  #close-frame{
+    position: relative;
+    margin-left: 820px;
+  }
 }

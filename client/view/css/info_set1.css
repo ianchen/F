@@ -1,0 +1,1018 @@
+﻿body {
+	font-family:  "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;	
+}
+.center {
+	background-color: #FFF;
+	width: 1004 px;
+	
+}
+.info_cal_top_bg {
+	background-color: #FFF;
+	background-image: url(../images/Info/info_cal_top_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+}
+.info_cal_middle_bg {
+	background-color: #FFF;
+	background-image: url(../images/Info/info_cal_middle_bg.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.info_cal_bottom_bg {
+	background-color: #FFF;
+	background-image: url(../images/Info/info_cal_bottom_bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.month_btn01{
+	background-image: url(../images/Info/cal_month_btn_last.png);
+	height: 22px;
+	width: 56px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-left: 10px;
+	margin-top: 5px;
+	}
+.month_btn02{
+	background-image: url(../images/Info/cal_month_btn_next.png);
+	height: 22px;
+	width: 56px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-left: 0px;
+	margin-top: 5px;
+	}
+.caltitle_year{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #9c7f5b;
+	line-height: 24px;
+	letter-spacing:0px;
+	vertical-align: middle;
+}
+.caltitle_month{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+	color: #6b4918;
+	letter-spacing:0px;
+	vertical-align: middle;
+	line-height: 36px;
+}
+.cal_hot_photo_bg{
+	padding: 0;
+	background-image: url(../images/Info/cal_hot_photo_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.hotphoto_img_pos{
+	position:relative;
+	top:10px;
+	left:8px;
+	height: 80px;
+	width: 93px;	
+}
+.hotphoto_word_pos{
+	position:relative;
+	top:10px;
+	left:10px;
+	height: 36px;
+	width: 93px;	
+}
+
+
+	
+	
+	
+
+
+.weekbar {
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	line-height:20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #ffffff;
+	text-decoration: none;
+	letter-spacing: 0px;
+	background-color: #6b4918;
+	width: 120px;
+	border-bottom: 5px solid #faf8f5;
+}
+.day00{
+	font-weight: bold;
+	color: #e5531a;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.day01{
+	font-weight: bold;
+	color: #83734F;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.day02{
+	font-weight: bold;
+	color: #83734F;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.day03{
+	font-weight: bold;
+	color: #83734F;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.day04{
+	font-weight: bold;
+	color: #83734F;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.day05{
+	font-weight: bold;
+	color: #83734F;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.day06{
+	font-weight: bold;
+	color: #569d48;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.cal_pix {
+	border: 1px solid #3f2c06;
+	float: none;
+	height: 66px;
+	width: 66px;
+	padding: 2px;
+	position: relative;
+	top: 0px;
+	left: 15px;
+}
+.cal_link_title{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #6B4918;
+	text-decoration: none;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 10px;
+}
+.cal_event_none{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #604e29;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFF;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center center;
+	vertical-align: top;
+}
+.cal_event_1{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_01.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_1{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #8902F2;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_2{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_02.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_2{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #43CB00;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_3{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_03.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_3{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #00C5B0;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_4{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_04.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_4{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #4F69F7;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_5{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_05.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_5{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #C2A684;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_6{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_06.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_6{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFB423;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_7{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_07.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_7{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF5933;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_8{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_08.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_8{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FE7282;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_9{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_09.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_9{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FE7282;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_10{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_10.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_10{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FE7282;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_11{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_11.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_11{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FE7282;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_12{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/mapicons/mapicon_L_12.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 10px;
+}
+.cal_event_title_12{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FE7282;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.cal_event_13{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #e5531a;
+	font-size: 10px;
+	height: 100px;
+	border-right: 2px solid #faf8f5;
+	border-bottom: 2px solid #faf8f5;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	background-image: url(../images/common/cal_icons/cal_event_bg_special.png);
+	background-repeat: no-repeat;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: left;
+	background-position: center 0px;
+}
+.cal_event_title_13{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 11px;
+	font-style: normal;
+	line-height:15px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: 70px;
+}
+.info_monthlyevent_bg_top {
+	background-color: #FFF;
+	background-image: url(../images/Info/info_monthlyevent_bg_top.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.info_monthlyevent_bg_bottom {
+	background-color: #FFF;
+	background-image: url(../images/Info/info_monthlyevent_bg_bottom.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.monthly_pix {
+	border: 1px solid #3f2c06;
+	float: none;
+	height: 110px;
+	width: 147px;
+	padding: 2px;
+	position: relative;
+	top: 0px;
+	left: 10px;
+}
+.join_button{
+	background-image: url(../images/Info/join_btn.png);
+	height: 23px;
+	width: 60px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-left: 60px;
+	margin-top: 5px;
+	}
+.monthlyevent_title{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #4c969a;
+	letter-spacing: 0px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.monthlyevent_txt_detail{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4f3c2c;
+	line-height: 18px;
+	letter-spacing:0px;
+	padding: 5px;	
+}
+.info_attend_bg_top{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_top.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+.info_attend_bg_lefttop{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_lefttop.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+.info_attend_bg_righttop{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_righttop.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+.info_attend_bg_leftbot{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_leftbot.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+.info_attend_bg_rightbot{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_rightbot.png);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+.info_attend_bg_leftmid{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_leftmid.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.info_attend_bg_rightmid{
+	background-color: #FFF;
+	background-image: url(../images/Info/info_attend_bg_rightmid.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.attend_txt{
+	background-image: url(../images/dot_01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #4F3C2C;
+	margin-left: 20px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 8px;
+}
+.attend_button_01{
+	background-image: url(../images/Info/attend_btn_01.png);
+	height: 28px;
+	width: 91px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.attend_button_02{
+	background-image: url(../images/Info/attend_btn_02.png);
+	height: 28px;
+	width: 91px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.attend_button_03{
+	background-image: url(../images/Info/attend_btn_03.png);
+	height: 28px;
+	width: 91px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.attend_title_01{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #6674C1;
+	letter-spacing: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.attend_title_02{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #F96969;
+	letter-spacing: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.attend_title_03{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #bfbfbf;
+	letter-spacing: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+.dot_line_02{
+	background-image: url(../images/Info/dotline_02.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-color: #FFF;
+}
+.dot_line_03{
+	background-image: url(../images/Info/dotline_02.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-color: #F3F7F7;
+}
+.foodicon_margin{
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+.attendlist_01{
+	margin-left: 70px;
+	background-color:#FFF
+}
+.attendlist_02{
+	margin-left: 70px;
+	background-color:#FFF
+}
+.attendlist_03{
+	margin-left: 70px;
+	background-color:#f0edea
+}
+.morebtn_01{
+	margin-right: 40px;
+}
+.morebtn_02{
+	margin-right: 100px;
+}
+.reattendlist_01{
+	margin-left: 20px;
+	background-color:#F3F7F7
+}
+.reattend_number{
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #F30;
+	letter-spacing: 1px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.reattend_pix {
+	border: 1px solid #e5e1de;
+	float: none;
+	height: 90px;
+	width: 90px;
+	padding: 2px;
+	position: relative;
+	top: 0px;
+	left: 10px;
+}
+.left {
+	padding: 0;
+	background-color: #FFF;
+	background-image: url(../images/common/background/mainbg_02.png);
+	height: 650px;
+	background-repeat: repeat;
+	background-position: left top;
+}
+.right{
+	padding: 0;
+	color: #311717;
+	background-color: #FFF;
+	background-image:url(../images/common/background/mainbg_02.png);
+	height: 650px;
+	background-repeat: repeat;
+	background-position: right top;
+}
+.bottom_copyright{
+	background-image:url(../images/common/background/copyright_bottom_02.png);
+	background-repeat: no-repeat;
+}
+.bottom_left{
+	background-image:url(../images/common/background/mainbg_02.png);
+	background-repeat: no-repeat;
+	height: 150px;
+}
+.bottom_right{
+	background-image:url(../images/common/background/mainbg_02.png);
+	background-repeat: no-repeat;
+	height: 150px;
+}
+
+
+
+
+	
+	
+	
+	

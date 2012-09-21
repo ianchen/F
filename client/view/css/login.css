@@ -1,0 +1,83 @@
+﻿body {
+	font-family:  "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	background-color: #ffffff;
+	margin: 0px;
+	padding-left: 0px;	
+}
+.center {
+	
+	background-color: #FFF;
+	background-image: url(../images/LoginBackground_center.png);
+	width: 1004 px;
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.left {
+	padding: 0;
+	background-color: #FFF;
+	background-image: url(../images/LoginBackground_left.png);
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.right{
+	padding: 0;
+	color: #311717;
+	background-color: #FFF;
+	background-image: url(../images/LoginBackground_right.png);
+	height: 650px;
+	background-repeat: no-repeat;
+}
+.login
+{
+    background-color: #FFF;
+	background-image: url(../images/Login_area_BG.gif);
+	
+}
+.login_main input {
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #545454;
+	border: 1px solid #b9b9b9;
+	background-color: #FFF;
+	width: 100px;
+	font-family: "tahoma", "Verdana", "Arial", "Helvetica", "sans-serif";
+	height: 18px;
+	padding: 1px;
+}
+.btn_login{
+	CURSOR: pointer;
+	height: 22px;
+	width: 29px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/Login_btn.gif);
+}
+.login_photo3{
+	padding: 0;
+	background-image: url(../images/Main_photo_03.png);
+	background-repeat: no-repeat;
+}
+.photo3_img_pos{
+	position:relative;
+	top:50px;
+	left:15px;
+	height: 165px;
+	width: 190px;
+	
+}
+.photo3_word_pos{
+	position:relative;
+	top:30px;
+	left:10px;
+	height: 36px;
+	width: 200px;
+	
+}

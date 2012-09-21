@@ -19,11 +19,11 @@ if(!$_SESSION["user-" . $_GET["uid"]] || !$_SESSION[$_GET["t"]]){
           <tr>
             <td><img src="../compass/images/common/menu_bg_blue.png"></td>
             <td></td>
-            <td><img class="menu" src="../compass/images/common/menu_personal_01.png"></td>
+            <td><a href="user.php<?php echo "?t={$_GET['t']}&uid={$_GET['uid']}";?>"><img class="menu" src="../compass/images/common/menu_personal_01.png"></a></td>
             <td></td>
             <td><img class="menu" src="../compass/images/common/menu_gourmet_01.png"></td>
             <td></td>
-            <td><img class="menu" src="../compass/images/common/menu_bigF_01.png"></td>
+            <td><a href="http://122.248.219.96/BigF_fixmenu.php<?php echo "?t={$_GET['t']}&uid={$_GET['uid']}";?>"><img class="menu" src="../compass/images/common/menu_bigF_01.png"></a></td>
             <td></td>
             <td><img src="../compass/images/common/menu_bg_blue.png"></td>
           </tr>
@@ -31,15 +31,20 @@ if(!$_SESSION["user-" . $_GET["uid"]] || !$_SESSION[$_GET["t"]]){
             <td></td>
             <td><img src="../compass/images/common/menu_bg_green.png"></td>
             <td></td>
-            <td><img src="../compass/images/common/menu_info_02.png"></td>
+            <td><a href="InfoNew.php<?php echo "?t={$_GET['t']}&uid={$_GET['uid']}";?>"><img src="../compass/images/common/menu_info_02.png"></a></td>
             <td></td>
             <td><img src="../compass/images/common/menu_bg_green.png"></td>
             <td></td>
-            <td><img src="../compass/images/common/menu_bg_red.png"></td>
+            <td><a href="http://122.248.219.96/Cook_fixmenu.php<?php echo "?t={$_GET['t']}&uid={$_GET['uid']}";?>"><img class="menu" src="../compass/images/common/menu_cook_01.png"></a></td>
             <td></td>
           </tr>
         </table>
       </div>
+      <div id="frame-window">
+        <button id="close-frame">X</button>
+        <iframe id="frame-inner-window" width="858" height="750" marginwidth="0" #marginheight="0" scrolling="yes" frameborder="0"></iframe>
+      </div>
+
       <div class="calendar">
         <div class="calendar-top">
           <img class="cal-hot-text" src="../compass/images/Info/cal_hot_pix.gif">
@@ -131,5 +136,6 @@ if(!$_SESSION["user-" . $_GET["uid"]] || !$_SESSION[$_GET["t"]]){
   </body>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script type="text/javascript" src="../javascripts/jquery.url.js"></script>
+  <script type="text/javascript" src="../javascripts/jquery.blockUI.js"></script>
   <script type="text/javascript" src="../javascripts/Info.js"></script>
 </html>

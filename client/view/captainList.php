@@ -93,9 +93,6 @@ for($i = 0; $i < count($signupRecord); $i++){
 </div>
 </td>
   </tr>
-  <tr>
-<td align="center"><input type="button" value="關閉視窗"></td>
-</tr>
 
   <tr>
     <td height="50" class="bottom_bg">&nbsp;</td>

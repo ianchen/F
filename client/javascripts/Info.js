@@ -11,7 +11,7 @@ var infoGlobal = {
   //ajax of fetch groups of month
   fetchGroup : function(year, month){
                  $.ajax({
-                   url: "../../epi/fetchGroup.php?year=" + year + "&month=" + month,
+                   url: "../../server/fetchGroup.php?year=" + year + "&month=" + month,
                    type: "GET",
                    dataType: "json",
                    error: function(){
@@ -37,11 +37,36 @@ var infoGlobal = {
                      var week = parseInt((parseInt(groups[i].date) - 1 + firstDay)/7);
                      $($(".calendar-table > tbody > tr")[week])
                        .find("." + infoGlobal.dayMap[dateCounter.getDay()] +"-col")
-                       .find(".day-content").append("<a href=\"preGroup.php?gid=" + groups[i].gid 
+                       .find(".day-content").append("<button url=\"preGroup.php?gid=" + groups[i].gid 
                            + "&uid=" + $.url.param("uid")
                            + "&t=" + $.url.param("t")
-                           + "\" target=\"_blank\">前往報名<a>");
+                           + "\" class=\"frame-btn\" target=\"_blank\">前往報名</button>");
                    }
+                   $(".frame-btn").click(function(event){
+                     var src = $(event.currentTarget).attr("url");
+                     $("#frame-inner-window").attr("src", src).show();
+                     $("#frame-window").show();
+                     $("#close-frame").show();
+                     $.blockUI({
+                       message: $("#frame-window")
+                       , css: {
+                         top: '30%' ,
+                       left: '45%' ,
+                       textAlign: 'left' ,
+                       marginLeft: '-320px' ,
+                       marginTop: '-145px' ,
+                       width: '858px' ,
+                       backgroundColor: 'white'
+                       }
+                     });
+                   });
+                   $("#close-frame").click(function(){
+                     $("#frame-inner-window").hide();
+                     $("#close-frame").hide();
+                     $("#frame-window").hide();
+                     $.unblockUI();
+                   });
+
                  },
   //change the date selector text
   changeSelectorText : function(year, month){
