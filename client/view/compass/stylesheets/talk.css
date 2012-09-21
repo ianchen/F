@@ -1,0 +1,14 @@
+/* line 1, ../sass/talk.scss */
+.controll-tr {
+  display: none;
+}
+
+/* line 4, ../sass/talk.scss */
+.talk-title {
+  font-size: 18px;
+}
+
+/* line 7, ../sass/talk.scss */
+table {
+  table-layout: auto;
+}

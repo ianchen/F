@@ -1,8 +1,6 @@
 <?php
-	ini_set('default_charset','utf-8', "1234555");
-	$connect = mysql_connect("localhost", "root");
-	$db = mysql_query("SET NAMES 'utf8'");
-    mysql_select_db("db_f");
+	ini_set('default_charset','utf-8', "thekono1");
+  require('config.php');
 ?>
 <?php
 //判斷是否為第一次參加

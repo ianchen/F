@@ -1,7 +1,5 @@
 <?php
-	$connect = mysql_connect("localhost", "root");
-	$db = mysql_query("SET NAMES 'utf8'");
-    mysql_select_db("db_f");
+  require('config.php');
 	function transDishName($s)
 	{
 		$query = "SELECT * FROM `group` WHERE `GID` = $_POST[GID]";

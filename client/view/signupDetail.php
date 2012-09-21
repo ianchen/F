@@ -63,7 +63,7 @@ function pickOthers($gid, $uid){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>無標題文件</title>
-<link href="../compass/stylesheets/template.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/template.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

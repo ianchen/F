@@ -19,7 +19,7 @@ $nextUrl = "RealA_{$order}.php?uid=$uid&t=$t&gid=$gid";
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>一般活動報名</title>
-<link href="../compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@ $nextUrl = "RealA_{$order}.php?uid=$uid&t=$t&gid=$gid";
               <tr>
                 <td height="50" align="center" valign="top"><label for="textfield"></label>
                   <input name="textfield" type="text" class="real_txtbox_01" id="textfield" /> 
-                  　<img style="cursor: pointer;" class="submit-btn" src="../compass/images/Signup/btn_confirm.png" width="66" height="30" /></td>
+                  　<img style="cursor: pointer;" class="submit-btn" src="compass/images/Signup/btn_confirm.png" width="66" height="30" /></td>
                 </tr>
               <tr>
                 <td height="100" align="center" valign="top">&nbsp;</td>

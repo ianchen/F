@@ -1,0 +1,14 @@
+/* line 1, ../sass/threeWord.scss */
+.controll-tr {
+  display: none;
+}
+
+/* line 4, ../sass/threeWord.scss */
+.talk-title {
+  font-size: 18px;
+}
+
+/* line 7, ../sass/threeWord.scss */
+table {
+  table-layout: auto;
+}

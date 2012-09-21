@@ -1,7 +1,5 @@
 <?php
-	$connect = mysql_connect("localhost", "root");
-	$db = mysql_query("SET NAMES 'utf8'");
-    mysql_select_db("db_f");
+  require('config.php');
 	$query = "INSERT INTO `first_question` ( `AID`, `GID`, `Q1`, `Q2`, `Q3`, `Q4`, `Q5`, `Q6`) VALUES ( '$_POST[AID]', '$_POST[GID]', '$_POST[q1_blank]', '$_POST[q2_blank]', '$_POST[q3_blank]', '$_POST[q4_blank]', '$_POST[q5_blank]', '$_POST[q6_blank]');";
 	$record = mysql_query($query) or die(mysql_error());
 	//var_dump($_POST);

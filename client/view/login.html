@@ -2,45 +2,90 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>大F與一起吃飯的朋友-登入</title>
-    <link href="../compass/stylesheets/login.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="compass/stylesheets/login.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+  <body style='width:100%;'>
     <div class="content">
       <ul class="photo-list">
         <li class="photo-1">
-        <img src="../compass/images/login/Main_photo_01.png">
+        <img src="compass/images/login/Main_photo_01.png">
         </li>
         <li class="photo-2">
         <div>
-          <img src="../compass/images/login/Main_photo_02.png">
+          <img src="compass/images/login/Main_photo_02.png">
         </div>
         </li>
         <li class="photo-3">
-        <img class="photo" src="../compass/images/login/Login_photo3_img001.jpg">
-        <img class="word" src="../compass/images/login/Login_photo3_word001.png">
+        <img class="photo" src="compass/images/login/Login_photo3_img001.jpg">
+        <img class="word" src="compass/images/login/Login_photo3_word001.png">
         </li>
         <li class="photo-4">
-        <img src="../compass/images/login/Main_enter_01.png">
+        <img src="compass/images/login/Main_enter_01.png">
         </li>
       </ul>
-      <ul class="login-bar">
-        <li class="login-icon">
-        <img src="../compass/images/login/member_login_icon.gif">
-        </li>
-        <li class="account">
-        <img src="../compass/images/login/login_account_word.gif">
-        <input type="text">
-        </li>
-        <li class="password">
-        <img src="../compass/images/login/login_password_word.gif">
-        <input type="password">
-        </li>
-        <li class="login-btn">
-        <img src="../compass/images/login/Login_btn.gif">
-        </li>
-      </ul>
+      <div class="login-bar">
+        <img class="login-icon-1" src="compass/images/login/member_login_icon.gif">
+        <img class="login-icon-2" src="compass/images/login/login_account_word.gif">
+        <input id="account" type="text">
+        <img class="login-icon-3" src="compass/images/login/login_password_word.gif">
+        <input id="pwd" type="password">
+        <img class="login-btn" src="compass/images/login/Login_btn.gif">
+      </div>
     </div>
+    <div class="modal hide fade in" data-backdrop="static" id="update-info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-body">
+        <div class="update-head"></div>
+        <div class="update-body">
+          <p>請更改預設密碼：</p>
+          <div class="update-password">
+            <input id="pwd-1" type="password">
+          </div>
+          <p>再次填入新密碼：</p>
+          <div class="update-password">
+            <input id="pwd-2" type="password">
+          </div>
+          <p>請選擇個人興趣：</p>
+          <div class="select-habit">
+            <div>
+              <input type="checkbox" id="interest-1">
+              <img src="compass/images/user/noteicon_hobbies_01.png">
+              <input type="checkbox" id="interest-2">
+              <img src="compass/images/user/noteicon_hobbies_02.png">
+              <input type="checkbox" id="interest-3">
+              <img src="compass/images/user/noteicon_hobbies_03.png">
+              <input type="checkbox" id="interest-4">
+              <img src="compass/images/user/noteicon_hobbies_04.png">
+              <input type="checkbox" id="interest-5">
+              <img src="compass/images/user/noteicon_hobbies_05.png">
+            </div>
+            <div>
+              <input type="checkbox" id="interest-6">
+              <img src="compass/images/user/noteicon_hobbies_06.png">
+              <input type="checkbox" id="interest-7">
+              <img src="compass/images/user/noteicon_hobbies_07.png">
+              <input type="checkbox" id="interest-8">
+              <img src="compass/images/user/noteicon_hobbies_08.png">
+              <input type="checkbox" id="interest-9">
+              <img src="compass/images/user/noteicon_hobbies_09.png">
+              <input type="checkbox" id="interest-10">
+              <img src="compass/images/user/noteicon_hobbies_10.png">
+            </div>
+          </div>
+          <p>請簡單自我介紹一下：</p>
+          <div>
+            <textarea id="introduce"></textarea>
+          </div>
+        </div>
+        <div class="update-footer"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="close-frame">送出</button>
+      </div>
+    </div>
+
   </body>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script type="text/javascript" src="../javascripts/login.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+  <script type="text/javascript" src="javascripts/login.js"></script>
 </html>

@@ -20,7 +20,7 @@ $nextUrl = "RealA_{$order}.php?uid=$uid&t=$t&gid=$gid";
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>一般活動報名</title>
-<link href="../compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -38,8 +38,8 @@ $nextUrl = "RealA_{$order}.php?uid=$uid&t=$t&gid=$gid";
                 <td height="200" colspan="2" align="left" valign="top" class="question_title_01">3. 吃飯是要付出代價，我很樂意參加餐後的&quot;每人10塊選團長&quot;小遊戲</td>
                 </tr>
               <tr>
-              <td width="275" height="150" align="center" valign="top"><a href="<?php echo $nextUrl;?>"><img src="../compass/images/Signup/btn_confirm_02.png" width="66" height="30" /></a></td>
-                <td width="275" align="center" valign="top"><a href="#"><img src="../compass/images/Signup/btn_deny.png" width="66" height="30" /></a></td>
+              <td width="275" height="150" align="center" valign="top"><a href="<?php echo $nextUrl;?>"><img src="compass/images/Signup/btn_confirm_02.png" width="66" height="30" /></a></td>
+                <td width="275" align="center" valign="top"><a href="#"><img src="compass/images/Signup/btn_deny.png" width="66" height="30" /></a></td>
               </tr>
             </table></td>
           </tr>

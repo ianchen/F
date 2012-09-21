@@ -1,8 +1,6 @@
 <?php
-	$connect = mysql_connect("localhost", "root", "1234555");
-	$db = mysql_query("SET NAMES 'utf8'");
-    mysql_select_db("db_f");
-?>
+  require('config.php');
+	?>
 <html>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

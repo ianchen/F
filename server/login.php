@@ -11,6 +11,7 @@ if(0 !== mysql_affected_rows() && mysql_affected_rows()){
   echo json_encode(array(
     "success" => true,
     "uid" => $user["AID"],
+    "first" => $user["first"],
     "token" => $token
   )); 
   header("success", true, 200);

@@ -39,8 +39,8 @@ function getRestaurantInfoByGid($gid){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>無標題文件</title>
-<link href="../compass/stylesheets/template.css" rel="stylesheet" type="text/css">
-<link href="../compass/stylesheets/threeWord.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/template.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/threeWord.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -91,10 +91,13 @@ if(0 === count($threeWord)%3){
 }
 ?>
       <tr>
-        <td><button id="first-page">最前頁</button></td>
-        <td><button id="pre-page">前一頁</button></td>
-        <td><button id="next-page">後一頁</button></td>
-        <td><button id="last-page">最後頁</button></td>
+        <td>
+          <button id="first-page">最前頁</button> 
+          <button id="pre-page">前一頁</button>
+          <button id="next-page">後一頁</button>
+          <button id="last-page">最後頁</button>
+        </td>
+
       </tr>
     </table>
 </div>
@@ -109,5 +112,5 @@ if(0 === count($threeWord)%3){
 <input type="hidden" value="<?php echo "$maxPage";?>" id="maxPage">
 </body>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script type="text/javascript" src="../javascripts/threeWord.js"></script>
+  <script type="text/javascript" src="javascripts/threeWord.js"></script>
 </html>

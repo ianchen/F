@@ -11,7 +11,7 @@ var infoGlobal = {
   //ajax of fetch groups of month
   fetchGroup : function(year, month){
                  $.ajax({
-                   url: "php/fetchGroup.php?year=" + year + "&month=" + month,
+                   url: "../Fpi/fetchGroup.php?year=" + year + "&month=" + month,
                    type: "GET",
                    dataType: "json",
                    error: function(){

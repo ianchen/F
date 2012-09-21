@@ -1,8 +1,5 @@
 <?php
-	$connect = mysql_connect("localhost", "root", "1234555");
-	$db = mysql_query("SET NAMES 'utf8'");
-    mysql_select_db("db_f");
-	
+  require('config.php');
 	$query = "SELECT * FROM `user` WHERE `AID` = '{$_GET["uid"]}'";
 	$record = mysql_query($query) or die(mysql_error());
 	$row_num = mysql_num_rows($record);	

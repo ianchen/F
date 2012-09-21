@@ -20,7 +20,7 @@ $nextUrl = "RealA_{$order}.php?uid=$uid&t=$t&gid=$gid";
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>一般活動報名</title>
-<link href="../compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -44,7 +44,7 @@ $nextUrl = "RealA_{$order}.php?uid=$uid&t=$t&gid=$gid";
                   <input type="hidden" name="t" value="<?php echo $t;?>">
                   <input type="hidden" name="gid" value="<?php echo $gid;?>">
                     <input name="tw" type="text" class="real_txtbox_01" id="textfield" /> 
-                  　<img class="submit-btn" src="../compass/images/Signup/btn_confirm.png" width="66" height="30" />
+                  　<img class="submit-btn" src="compass/images/Signup/btn_confirm.png" width="66" height="30" />
                   </form>
                   </td>
                 </tr>

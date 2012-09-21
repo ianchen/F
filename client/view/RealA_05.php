@@ -20,7 +20,7 @@ $nextUrl = "user.php?uid=$uid&t=$t";
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>一般活動報名</title>
-<link href="../compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
+<link href="compass/stylesheets/signupA.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@ $nextUrl = "user.php?uid=$uid&t=$t";
                   <label for="textarea"></label>
                   <textarea name="textarea" id="textarea" cols="50" rows="5"></textarea>                  
                   </p>
-                  <p><img class="submit-btn" src="../compass/images/Signup/btn_confirm.png" width="66" height="30" /></p></td>
+                  <p><img class="submit-btn" src="compass/images/Signup/btn_confirm.png" width="66" height="30" /></p></td>
               </tr>
               </table></td>
           </tr>
